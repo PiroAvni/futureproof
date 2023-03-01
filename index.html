@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,800;1,100;1,200;1,500;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4622139c89.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="/style.css" />
+
+
+  <title>Avni Piro Bio</title>
+</head>
+
+<body>
+  <header>
+    <!-- Nav Bar -->
+    <nav class="nav_bar">
+      <div class="logo_container">
+        <div class="logo">&#10094; AP &#10095; &VerticalSeparator;</div>
+        <div class="logo_">Avni <br>Piro</div>
+      </div>
+
+      <!-- NAV BAR - ITEMS -->
+
+      <ul class="nav_bar_items " id="res_bar">
+        <li class="nav_bar_item"><a href="#about-me">About Me</li></a>
+        <li class="nav_bar_item"><a href="#truth_or_lie">True or False</li></a>
+        <li class="nav_bar_item"><a href="#contact-me">Contact Me</li></a>
+      </ul>
+
+      <!-- Nav Bar - Hamburger -->
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#truth_or_lie">Truth or Lie</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Main Section - Hero -->
+  <main id="main">
+    <section class="main_top">
+      <div class="left">
+        <h1 class="title">Hi I'm <br> <span>Avni Piro</span>.</h1>
+
+        <p class="subtitle"> A passionate self taught Software Developer.</p>
+
+        <div class="quotes">
+          <blockquote>
+            <q>Software is a great combination between
+              <strong class="quote_phrase">
+                - artistry and engineering.</strong></q>
+          </blockquote>
+        </div>
+      </div>
+
+      <figure id="img_container" class="right">
+        <div class="Image_bg">
+          <img class="profile_img" id="image" src="/assets/avnipiro.png" alt="Graphical Image of Avni Piro"
+            style="--order: 4" width="300" height="300" preload /></div>
+      </figure>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/avnipiro/" class="fa-brands fa-linkedin" target="_blank"></a>
+        <a href="https://github.com/PiroAvni" class="fab fa-brand fa-github" target="_blank"></a>
+      </div>
+
+    </section>
+    <!-- Section - About Me   -->
+    <section id="about-me">
+      <div class="about_me_container">
+        <h2 class="about_me_subtitle"> My Bio</h2>
+        <div class="about_me_details">
+          <div class="left">
+            <p>Hello! My name is Avni Piro. <br>
+              I am a self-taught aspiring Full Stack Developer with 14 years of experience in Finance.
+              Software Development has been a massive passion of mine since I can remember, so for the past few months I
+              have been studying and learning new programming languages and frameworks while also building different web
+              and mobile apps.
+              <br>
+              I love how coding brings new challenges, where I am able to apply my problem-solving skills and at the
+              same time flex my creative thinking.
+              <br>
+              I would love to turn my passion for coding into an exciting career transition to tech with the help and
+              training of Futureproof and La Fosse Associates.
+            </p>
+          </div>
+
+          <!-- Image Slider -->
+          <div class="right">
+            <div class="slider">
+              <!-- <a href="#slide-1">1</a>
+              <a href="#slide-2">2</a>
+              <a href="#slide-3">3</a>
+              <a href="#slide-4">4</a>
+              <a href="#slide-5">5</a> -->
+
+              <div class="slides">
+
+                <div id="slide-1">
+                  <img src="/assets/tech-img/ToDo.list.png">
+                </div>
+                <div id="slide-2">
+                  <img src="/assets/tech-img/Face-ID-App.png">
+                </div>
+                <div id="slide-3">
+                  <img src="/assets/tech-img/Mapty.png">
+                </div>
+                <div id="slide-4">
+                  <img src="/assets/tech-img/RoboFriends.png">
+                </div>
+                <div id="slide-5">
+                  <img src="/assets/tech-img/Portfolio_v1.0.png">
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Section - Truth or Lie  -->
+    <section id="truth_or_lie">
+      <h2 class="tol_subtitle">True or False</h2>
+      <div class="tol-detail">
+        <p>Below are 3 statements about me.<br>
+          <span>Two are true but one is a lie!</span><br>
+          Read all the statements and try to guess which is the lie.</p>
+      </div>
+      <div class="card_container">
+        <div class="col">
+          <div class="card">
+            <div class="card1_inner">
+              <div class="card_face card_back">
+                <div class="card_content">
+                  <div class="card_header">
+                    <img class="num_img" src="/assets/fatherof4.jpg" alt="Gym Equipment">
+                    <h2>True or False</h2>
+                  </div>
+                  <div class="card_body">
+                    <h3>Do You Think...</h3>
+                    <p>
+                      I am a father of 4?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card_face card_front">
+                <div class="card_front_header">
+                  <img class="thumb_img" src="/assets/icon-correct.png" alt="Thumbs Up">
+                  <h2>True</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card2_inner">
+              <div class="card_face card_back">
+                <div class="card_content">
+                  <div class="card_header">
+                    <img class="num_img" src="/assets/plane.jpg" alt="Aircraft Pilot">
+                    <h2>True or False</h2>
+                  </div>
+                  <div class="card_body">
+                    <h3>Do You Think...</h3>
+                    <p>
+                      I once trained for single engine Pilot licence?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card2_face card_front">
+                <div class="card_front_header">
+                  <img class="thumb_dwn_img" src="/assets/Incorrect.png" alt="Thumbs Down">
+                  <h2>False</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card3_inner">
+              <div class="card_face card_back">
+                <div class="card_content">
+                  <div class="card_header">
+                    <img class="num_img" src="/assets/football_coach.jpeg" alt="Royal Albert Hall">
+                    <h2>True or False</h2>
+                  </div>
+                  <div class="card_body">
+                    <h3>Do You Think...</h3>
+                    <p>
+                      I coach a youth football team?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card_face card_front">
+                <div class="card_front_header">
+                  <img class="thumb_img" src="/assets/icon-correct.png" alt="Thumbs Up">
+                  <h2>True</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Section - Contact Me -->
+    <section id="contact-me">
+      <div class="contact_me_container">
+        <h2 class="about_me_subtitle">Contact Me</h2>
+        <form class="form">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <!-- Section - Footer -->
+    <footer id="footer" role="contentinfo">
+      <div class="footer_container">
+          <div class="logo_container">
+            <div class="logo">&#10094; AP &#10095; &VerticalSeparator;</div>
+            <div class="logo_">Avni <br>Piro</div>  
+          </div>
+      </div>
+      <div class="footer_detail_container">
+      <div class="footer_title">
+        <h3> Thank you for visiting my website.</h3>
+      </div>
+      <div class="footer_mail">
+        <i class="fa-solid fa-envelope"></i>
+        <p>Avnipiro.dev@gmail.com</p> 
+      </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
